@@ -1,6 +1,6 @@
 # Project-Customer-Churn-Python
 
-Data cleaning 
+#Data cleaning 
 
 1.Checked missing/nulls
 
@@ -8,13 +8,13 @@ Data cleaning
 
 3.Deal with outliers
 
-EDA
+#EDA
 
 1.	Hist for numeric variables
 
 2.	Boxplot for categorical variables
 
-Data Transformation (for model processing )
+#Data Transformation (for model processing )
 
 1) Encoded response variable (RENEW) into factor 1 and factor 0
 
@@ -28,7 +28,7 @@ Data Transformation (for model processing )
 
 4) Data Normalization
 
-Feature selection: for numerical predictors vs categorical response (RENEW)
+#Feature selection: for numerical predictors vs categorical response (RENEW)
 
 1. Univariate feature selection works by selecting the best features based on univariate statistical tests 
 
@@ -44,7 +44,7 @@ Tree-based feature selection (RF)
 
 4. Principal Components Analysis (PCA)
 
-Build Machine Learning Models
+#Build Machine Learning Models
 
 Evaluate the model using various metrics (including precision and recall):
 
@@ -88,7 +88,7 @@ Grid search: {'C': 1, 'gamma': 1, 'kernel': 'rbf'}; accuracy=0.69; precision=0.6
 
 PCA (n=2) + SVM: accuracy=0.69;precision=0.68;recall=0.69
 
-Design and Build Neural Network using TensorFlow (Sequential Model)
+#Design and Build Neural Network using TensorFlow (Sequential Model)
 
 1. Use the subset from f-test feature selection
 
