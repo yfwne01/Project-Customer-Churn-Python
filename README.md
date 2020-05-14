@@ -42,10 +42,11 @@ Recursive feature elimination (RFE) is to select features by recursively conside
 
 Tree-based feature selection (RF)
 
-4. Principal Components Analysis
+4. Principal Components Analysis (PCA)
 
+Build Machine Learning Models
 
-Machine Learning Models:
+Evaluate the model using various metrics (including precision and recall):
 
 1.Logistic Regression: predictors should be independent; numerical variables only
 
@@ -87,6 +88,12 @@ Grid search: {'C': 1, 'gamma': 1, 'kernel': 'rbf'}; accuracy=0.69; precision=0.6
 
 PCA (n=2) + SVM: accuracy=0.69;precision=0.68;recall=0.69
 
+Design and Build Neural Network using TensorFlow (Sequential Model)
 
+1. Use the subset from f-test feature selection
+
+2. Define and train a model using Keras
+
+3. Improve performance with algorithm tuning (72% accuracy so far)
 
 
