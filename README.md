@@ -8,6 +8,8 @@
 
 3.Deal with outliers
 
+4. Handle skewed numerical features with log +1 transformation 
+
 #EDA
 
 1.	Hist for numeric variables
@@ -60,13 +62,13 @@ Drawback: Logistic Regression learns a linear decision surface that separates yo
 
 After f-test feature selection: accuracy=0.75;recall=0.75
 
-After tree-based feature selection+ Grid search: accuracy = 0.744;recall=0.75
+After tree-based feature selection+ Grid search: accuracy = 0.74;recall=0.75
 
 3.KNN: numeric features only; require features to be scaled; sensitive to the feature selection
 
 Larger K value leads to smoother decision boundary (less complex model). Smaller K leads to more complex model (may lead to overfitting)
 
-After f-test feature selection: k=63, accuracy=0.695;recall=0.69
+After f-test feature selection: k=63, accuracy=0.70;recall=0.70
 
 After RFE feature selection: k=54, accuracy=0.70;recall=0.70
 
@@ -78,11 +80,11 @@ C (penalty number) : represents the misclassification and error. A smaller value
 
 Gamma: A lower value of Gamma will loosely fit the training dataset, whereas a higher value of gamma will exactly fit the training dataset, which causes over-fitting
 
-After f-test feature selection: accuracy=0.65;precision=0.78;recall=0.65
+After f-test feature selection: accuracy=0.70;precision=0.70;recall=0.70
 
-After RFE feature selection: accuracy=0.65;precision=0.77;recall=0.65
+After RFE feature selection: accuracy=0.69;precision=0.68;recall=0.69
 
-After tree-based feature selection: accuracy=0.65;precision=0.78;recall=0.65
+After tree-based feature selection: accuracy=0.69;precision=0.69;recall=0.69
 
 Grid search: {'C': 1, 'gamma': 1, 'kernel': 'rbf'}; accuracy=0.69; precision=0.68;recall=0.69
 
