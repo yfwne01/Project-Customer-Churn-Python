@@ -70,9 +70,9 @@ Larger K value leads to smoother decision boundary (less complex model). Smaller
 
 After f-test feature selection: k=61, accuracy=0.70;recall=0.70
 
-After RFE feature selection: k=54, accuracy=0.70;recall=0.70
+After RFE feature selection: k=62, accuracy=0.70;recall=0.69
 
-After tree-based feature selection: k=46, accuracy=0.70; recall=0.70
+After tree-based feature selection: k=70, accuracy=0.70; recall=0.70
 
 4. SVM: require features to be scaled;  choose proper kernels functions; numerical variables only; It is not suitable for large dataset( longer training time); sensitive to kernels functions 
 
