@@ -88,7 +88,7 @@ After tree-based feature selection: accuracy=0.69;precision=0.69;recall=0.69
 
 Grid search: {'C': 10, 'gamma': 0.001, 'kernel': 'rbf'}; accuracy=0.71; precision=0.70;recall=0.71
 
-PCA (n=2) + SVM: accuracy=0.69;precision=0.68;recall=0.69
+PCA (n=4) + SVM: accuracy=0.70;precision=0.70;recall=0.70
 
 #Design and Build Neural Network using TensorFlow (Sequential Model)
 
