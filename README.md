@@ -8,7 +8,7 @@
 
 3.Deal with outliers
 
-4. Handle skewed numerical features with log +1 transformation 
+4.Handle skewed numerical features with log +1 transformation 
 
 #EDA
 
