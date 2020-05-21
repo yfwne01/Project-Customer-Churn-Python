@@ -68,7 +68,7 @@ After tree-based feature selection+ Grid search: accuracy = 0.74;recall=0.75
 
 Larger K value leads to smoother decision boundary (less complex model). Smaller K leads to more complex model (may lead to overfitting)
 
-After f-test feature selection: k=63, accuracy=0.70;recall=0.70
+After f-test feature selection: k=61, accuracy=0.70;recall=0.70
 
 After RFE feature selection: k=54, accuracy=0.70;recall=0.70
 
