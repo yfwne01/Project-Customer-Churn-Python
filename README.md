@@ -62,7 +62,9 @@ Drawback: Logistic Regression learns a linear decision surface that separates yo
 
 After f-test feature selection: accuracy=0.75;recall=0.75
 
-After tree-based feature selection+ Grid search: accuracy = 0.74;recall=0.75
+After f-test feature selection+ Grid search: accuracy = 0.75;recall=0.75
+
+After tree-based feature selection+ Grid search: accuracy = 0.74;recall=0.74
 
 3.KNN: numeric features only; require features to be scaled; sensitive to the feature selection
 
