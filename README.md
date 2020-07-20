@@ -96,8 +96,10 @@ PCA (n=4) + SVM: accuracy=0.70;precision=0.70;recall=0.70
 
 1. Use the subset from f-test feature selection
 
-2. Define and train a model using Keras
+2. Desigin multi-layers sequential model in keras with the rectified linear activation and the sigmoid on the output layer 
 
-3. Improve performance with algorithm tuning (72% accuracy so far)
+3.Leverage the model performance by adding 0.2 dropout, proper batch size and epoch size, and adapt the Adam optimization algorithm to update network weights iterative based on training data
+
+4. Tune the model by adding early stoping, resulting in 72% model accuracy with 32 batch sizes and 200 epochs
 
 
